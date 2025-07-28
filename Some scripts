@@ -1,0 +1,121 @@
+Some non-generic decryption scripts will not be documented.
+by xingluo
+
+Software Log - by xingluo
+-------
+2024-12-27 Created: EmptyFolderCleaner_v2.0.py
+2024-12-28 Created: MoveFilesToIndividualFolders_v1.0.py
+2025-02-07 Created: BatchResizePNG.py (Requires Pillow: pip install pillow)
+2025-02-16 Created: Fate-DirectoryNavigator.py - Visualizes directory structures
+2025-02-24 Consolidated folders. Created: FolderScope.py - Monitors/sorts folders with color CLI
+2025-03-03 Created: Fate-DirectoryNavigator_Lite.py (Directory-only view)
+2025-03-22 HBR video decryption breakthrough. New:
+  CRID(usm)_Organizer.py (modify path) - Extracts CRID files via hex headers
+  usm_BatchProcessor.py - Batch processes crid_mod.exe (requires key)
+  DuplicateFileOrganizer.py (modify path) - Handles same-name files
+  SubfolderDeconstructor.py (modify path) - Flattens nested folders
+2025-05-05 New: 
+  RemoveFileHeaderSignature.py (Self-explanatory)
+  LongKeyXOR_Decryptor.py (Self-explanatory)
+2025-05-06 New:
+  astc2png.py - Converts Cocos textures
+  Updated MoveSpecificFileTypes.py: Added file copying & progress display
+  MediaClassifier.py - Classifies extensionless files
+  spineSkel_Classifier.py / spineAtlas_Classifier.py (GUI featured)
+2025-05-07 New:
+  atlasLineBreaker.bat (Drag-and-drop)
+  JSON01-atlasLineBreaker.py (Batch)
+  QuickPNGConverter.py - Auto batch conversion
+  JSON02-atlasBinPngProcessor.py - Renames/converts Spine assets
+2025-05-08 New: L2DEX_JSONGenerator.py - Auto Live2D configs for Spine (Mission accomplished)
+2025-05-09 Updates:
+  MediaClassifier.py - Enhanced for XOR decrypted files
+  spineAtlas_Classifier.py - Added copy/move options
+  spineSkel_Classifier.py - Added GUI options
+2025-05-10 New:
+  PNGResizer_ForAtlas.py - Auto-resizes based on atlas
+  UniversalSpineOrganizer.py - Semi-auto Spine/Live2D toolkit
+2025-05-13 New:
+  UnityFS_FakeHeaderRemover.py - Removes invalid prefixes
+  Updated UniversalSpineOrganizer.py (Removed Live2D detection)
+  ExtensionAdder.py - Adds extensions to extensionless files
+2025-05-15 Updated L2DEX_JSONGenerator.py - Added dual modes
+2025-05-16 New:
+  SpineExtensionHandler.py (Submodule of UniversalSpineOrganizer)
+  Updated L2DEX_JSONGenerator.py - Added multi-PNG handling
+2025-05-17 New:
+  csv2txt.py - Table to text
+  txt-research.py - GUI text search
+  L2D_EXModel3_Configurator.py - Batch config builder
+2025-05-18 New: L2D_EmptyMotions_Detector.py - Detects missing motion folders
+2025-05-19 New:
+  FGO_AlphaExtractor.py - Specialized for FGO
+  RGBA_Compositor.py - Combines RGB+A images
+  CPK(acb)_Organizer.py (modify path) - Processes CPK/ACB files
+2025-05-27 New:
+  ExtensionRemover.py - Smart extension removal
+  Updated UnityFS_FakeHeaderRemover.py - Added "delete original" option
+2025-05-28 Updates:
+  CRID(usm)_Organizer.py - Optimized interaction
+  RIFF_Organizer.py - Deep traversal processor
+  FolderScope.py - Stability improvements
+  UniversalSpineOrganizer.py - Enhanced multi-PNG handling
+2025-05-29 New:
+  UniversalRGBA_Compositor.py - Customizable alpha handling
+  Remove_RGB_Suffix.py - Removes "_rgb" filenames
+  Updated UniversalSpineOrganizer.py - Atlas-based grouping
+2025-05-31 New:
+  ST01-SimilarNameOrganizer.py - Groups similar filenames
+  Updated UniversalSpineOrganizer.py - Added PNG location constraints
+2025-06-01 New:
+  ST02-SpineMaterialClassifier.py - Pre-classifies Spine assets
+  ST03-AtlasSizeMatcher.py - Isolates skel files
+  ST04-StringRemover.py - Removes specific strings
+2025-06-03 New: bms_Traversal.py (Requires quickbms.exe)
+2025-06-04 New:
+  EmptyFileFolderCleaner.py - Enhanced version
+  SubfolderDeconstructor_v2.0.py - Added GUI
+2025-06-06 New: ResourceBatchSplitter.py - Divides large resource packs
+2025-06-08 New: vgm-usm_Renamer.py - Renames M2V/ADX files
+2025-06-10 New:
+  amv2Frames.py - Converts AMV to frames
+  Frames2MP4.py - FFmpeg-based frame conversion
+2025-06-11 Updated Pro_VideoCompositor.py - FFmpeg H.264 encoding
+2025-06-18 Updated L2D_EX_Model3_Configurator.py - Added physics modes
+2025-06-22 New:
+  SubfolderDeconstructor_v4.0.py - GUI stabilization
+  EXE_Builder.py - Uses Sega Mirai as default icon
+    Encountered ModuleNotFoundError: tkinter issue
+    EXE_Builder-CX.py - Dependency separation
+    EXE_Builder-PYL_v2.0.py - Dependency pre-install solution
+  Updated PNGResizer_ForAtlas.py - Added GUI/EXE
+  Updated UnityFS_FakeHeaderRemover.py - Added GUI/EXE
+  Updated LargeFileCleaner.py - Added size filter/GUI
+  Updated QuickPNGConverter.py - Auto dependency/GUI/EXE
+  Updated bms_Traversal.py - EXE build
+  Updated ExtensionAdder.py - Duplicate handling
+  New: ST03-NEW_AtlasMatcher.py - Classifies PNG/skel (Exhausting but worthwhile)
+2025-06-23 New:
+  UniversalASTC_Converter.py - GUI tool
+  Updated ST03-NEW_AtlasMatcher.py - Added atlas formats
+  AtlasBasedRenamer.py - Renames Spine assets
+2025-06-24 New:
+  ExtensionlessSpineClassifier.py - Experimental
+  UniversalVideoConverter.py - Featured GUI (SSR style)
+2025-06-25 New:
+  Updated EXE_Builder-PYL_v2.0.py - Dependency optimization
+  SQL_Downgrader.py - Fixes collation errors
+2025-06-28 Updated SubfolderDeconstructor_v5.0.py - Minimum-level deconstruction
+2025-07-02 New: SpinePNG_PrelimClassifier.py - ML-based confidence filtering
+2025-07-04 New: UniversalXOR_Decryptor.py - Large file handling
+2025-07-09 New: AtlasPNG_Renamer.py - Corrects internal PNG names
+2025-07-17 New: PNG_PremultipliedAlpha.py - GUI tool for Live2D
+2025-07-20 New: pal8_to_rgba.py - Solves Spine display issues
+2025-07-21 New21:
+  SPINE_JSON_Downgrader.py - Batch JSON downgrading
+  SpineAtlas_Downgrader.py - Atlas downgrading (v4.0 to v3.8)
+2025-07-27-28 New:
+  Updated UniversalASTC_Converter.py - Optimized (English path restriction)
+  scp-uuid.py - Reconstructs Cocos2d structures from UUIDs (Critical breakthrough)
+  pkm2png_CLI.py 
+  fakePKM-GZIP_Processor.py - Fixes malformed PKM files
