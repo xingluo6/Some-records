@@ -101,21 +101,23 @@ Software Log - by xingluo
   AtlasBasedRenamer.py - Renames Spine assets
 2025-06-24 New:
   ExtensionlessSpineClassifier.py - Experimental
-  UniversalVideoConverter.py - Featured GUI (SSR style)
+  UniversalVideoConverter.py - Featured GUI (SSR style,base on usm2mp4,and all)
 2025-06-25 New:
   Updated EXE_Builder-PYL_v2.0.py - Dependency optimization
   SQL_Downgrader.py - Fixes collation errors
-2025-06-28 Updated SubfolderDeconstructor_v5.0.py - Minimum-level deconstruction
+2025-06-28 New:
+  Updated SubfolderDeconstructor_v5.0.py - Minimum-level deconstruction
+  Updated L2D_EX_Model3_Configurator.py - new model for solo moc and png
 2025-07-02 New: SpinePNG_PrelimClassifier.py - ML-based confidence filtering
 2025-07-04 New: UniversalXOR_Decryptor.py - Large file handling
 2025-07-09 New: AtlasPNG_Renamer.py - Corrects internal PNG names
-2025-07-17 New: PNG_PremultipliedAlpha.py - GUI tool for Live2D
-2025-07-20 New: pal8_to_rgba.py - Solves Spine display issues
-2025-07-21 New21:
-  SPINE_JSON_Downgrader.py - Batch JSON downgrading
-  SpineAtlas_Downgrader.py - Atlas downgrading (v4.0 to v3.8)
+2025-07-17 New: PNG_PremultipliedAlpha.py - GUI tool for spine's png
+2025-07-20 New: png_pal8_to_rgba.py - Solves Spine display issues
+2025-07-21 New:
+  SPINE-JSONBACK.py - Batch JSON downgrading
+  SpineAtlas_GUI.py - Atlas downgrading (v4.0&v3.0)
 2025-07-27-28 New:
   Updated UniversalASTC_Converter.py - Optimized (English path restriction)
   scp-uuid.py - Reconstructs Cocos2d structures from UUIDs (Critical breakthrough)
-  pkm2png_CLI.py 
-  fakePKM-GZIP_Processor.py - Fixes malformed PKM files
+  pkm2png_CLI.py - pkm2png
+  fakePKM-gzip.py - Fixes malformed PKM files(gz2pkm)
