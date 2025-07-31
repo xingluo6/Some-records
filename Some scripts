@@ -121,3 +121,8 @@ Software Log - by xingluo
   scp-uuid.py - Reconstructs Cocos2d structures from UUIDs (Critical breakthrough)
   pkm2png_CLI.py - pkm2png
   fakePKM-gzip.py - Fixes malformed PKM files(gz2pkm)
+2025-07-29 to 2025-07-30 Updates:
+Added: astc-detection-containment-13-AB-A1-5C.py - Preliminary ASTC file extraction and containment processor
+Added: json-detection-containment.py - JSON file containment handler (Note: Superseded by a superior solution)
+Added: res_file-get.py - Universal resource retrieval tool for res/ asset paths (Exclusively for MD5 hash matching)
+Added: scp-md5.py - Critical breakthrough: Dual-matching mapping via file MD5 hashing and filename MD5 verification
