@@ -184,7 +184,19 @@ Updated: json-detection-containment.py - Excluded potential .skel files from con
 
 2025-08-07
 Added: uexp-data-to-skel.py - Converts .uexp animation data to .skel format
+Added: pvr-to-png-TexturePacker.py - Converts PVR textures to PNG format using TexturePacker
 Added: uexp-atlas-to-atlas.py - Transforms uexp-based texture atlases to standard .atlas format
 Updated: multi-subfolder-processor_7.0.py - GUI removed, CLI interface and core logic optimized
+
+2025-08-08
+Added: xor-operation@.py - Single-byte XOR processing tool
+Added: project.manifest-packageUrl-assets.py - Extracts valid URLs from manifest files
+Updated: universal-astc-converter.py - Enhanced to achieve true cross-platform compatibility
+Added: scp-aria2c.py - Comprehensive URL collection processor using aria2c (Superior to wget)
+Added: scp-catalogbin.py - Converts binary catalog.bin files into plaintext
+Updated: bms-traversal-script.py - GUI optimized, resolving persistent issues
+Added: UnityFS-splitter.py - Splits consolidated AssetBundles within UnityFS packages
+Added: special-png-extractor-sc-csv-ktx-sctx.py - Interactive extractor with configurable paths and settings
+
 
 
