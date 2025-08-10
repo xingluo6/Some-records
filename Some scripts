@@ -198,5 +198,10 @@ Updated: bms-traversal-script.py - GUI optimized, resolving persistent issues
 Added: UnityFS-splitter.py - Splits consolidated AssetBundles within UnityFS packages
 Added: special-png-extractor-sc-csv-ktx-sctx.py - Interactive extractor with configurable paths and settings
 
+2025-08-09
+Added: KTX11-image-organizer.py - Processes KTX11 textures via byte-level positioning operations
+Updated: ST03-NEW-atlas-based-png-skel-matcher.py - Major breakthrough: Integrated OpenCV to resolve core texture matching challenges (eliminating needle-in-haystack scenarios). Achieved high match rate (>74%) with optimized skeleton matching logic and multithreading. Resolved disordered matching issues permanently. Added strict/lenient processing modes to address 3.5:1 success ratio limitations. Note: This proprietary tool has extensive industry applications but remains unpublished per agreement.
 
+2025-08-10
+Updated: ST03-NEW-atlas-based-png-skel-matcher.py - Optimized renaming logic for multi-PNG scenarios
 
