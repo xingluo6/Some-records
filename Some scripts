@@ -205,3 +205,34 @@ Updated: ST03-NEW-atlas-based-png-skel-matcher.py - Major breakthrough: Integrat
 2025-08-10
 Updated: ST03-NEW-atlas-based-png-skel-matcher.py - Optimized renaming logic for multi-PNG scenarios
 
+2025-08-11
+Updated: scp-aria2c.py - Optimized hash-based naming for extensionless files
+
+2025-08-12
+Updated: Spine-Extension-Handler.py - Added support for double extensions (.atlas.atlas/.skel.skel)
+Added: SPINE-Unified-Toolsuite-xingluo.py - Integrated 9 core functions:
+  1. SKEL file detection/transfer
+  2. Atlas file detection/transfer
+  3. Content-based file classification
+  4. AS-SPINE redundant suffix cleanup
+  5. File extension renaming
+  6. Comprehensive Spine classification
+  7. L2DEX JSON generator
+  8. Multi-subfolder processor
+  9. PNG premultiplied alpha conversion
+
+2025-08-13
+Updated: 
+  SPINE-Unified-Toolsuite-xingluo.py - Feature expansion & usability enhancements
+  ST03-NEW-atlas-based-png-skel-matcher.py - Logic optimized, increased success rate
+
+2025-08-14
+Added: scp-net-bilibili.py - Bilibili collection crawler (images/videos) with structured storage:
+  • Target locking via F12 developer tools
+  • API utilization for efficient scraping
+  • Original filenames preserved
+  • Rule-based directory architecture
+
+
+
+
